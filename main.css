@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+/****************************** top ******************************/
+
+.banner {
+    background-image: url(Homepage/3trucks.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    font-size: 4em;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px #333;
+}
+
+/********** Navigation **********/
+
+nav {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+nav ul{
+    list-style: none;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    align-self: center;
+    margin: auto;
+    padding-top: 7px;
+    list-style: none;
+    border-top: 1px solid white;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 100px;
+}
+
+nav a:hover {
+    color: antiquewhite;
+}
+
+.selected {
+    color: darkgray;
+}
+/****************************** body ******************************/
+.wrapper {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.wrapper h1{
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.wrapper h2{
+    text-align: center;
+}
+
+.wrapper p{
+    text-align: center;
+    padding: 3% 3% 0;
+}
+
+.parbox {
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px auto;
+    padding-bottom: 5%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+}
+
+.colone{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+.colone{
+    background-color: lightgray;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+}
+
+.colone img {
+    margin: auto;
+    border: 5px solid white;
+    padding: 2%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+}
+
+
+/**************************** detail page ****************************/
+
+.bannerdetail {
+    background-image: url(contactus/amg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+.bannerdetail img{
+    width: 100%;
+    height: auto;
+}
+
+.fblink {
+    color: blue;
+    text-decoration: none;
+}
+
+.detailpic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    background-color: lightgray;
+    border-radius: 15px;
+}
+
+.detailpic img {
+    width: 100px;
+    height: auto;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+}
+
+
+.weoffer {
+    background-color: lightgray;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    padding: 2%;
+    padding-left: 25px;
+    margin: auto;
+}
+
+.weoffer li {
+    margin: 2% 0;
+    background-color: lightgray;
+}
+
+
+
+.map {
+    margin: auto;
+    margin-bottom: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+}
+
+.call {
+    text-align: center;
+}
+
+.phone {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+}
+.phone a{
+    text-decoration: none;
+    padding: 1% 20%
+}
+
+.phone:hover {
+    background-color: black;
+    transition: background-color;
+    box-shadow: none;
+}
+
+.phone a:hover{
+    color: white;
+    transition: color;
+}
+.email {
+    height: 40px;
+    font-size: 1.5em;
+    text-align: center;
+    align-self: center;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    padding-top: 5px;
+}
+.email a{
+    text-decoration: none;
+    text-align: center;
+    padding: 1% 5%;
+}
+
+.email:hover {
+    background-color: black;
+    transition: background-color;
+    box-shadow: none;
+}
+
+.email a:hover{
+    color: white;
+    transition: color;
+}
+
+/****************************** join us ******************************/
+
+.joinuspic {
+    width: 100%;
+    margin-top: 5%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+
+/****************************** bottom ******************************/
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
