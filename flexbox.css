@@ -1,17 +1,38 @@
-
 /* @media screen and (min-width: 620px)*/
 
-@media screen and (min-width:730px ){
-    body {
-        background-color: red;
+@media screen and (min-width: 571px) {
+
+/************************ Index page ****************************/
+    .logo {
+        display: flex;
+        margin: auto;
     }
-
-
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+    .colone {
+        width: 100%;
+        height: 205px;
+        padding: auto;
+    }
+    .colone img {
+        width: 200px;
+        margin: auto;
+    }
+    
+/************************ detail page ****************************/
+    .detailpic {
+        margin: auto;
+    }
+    
+    .detailpic img {
+        flex: 1 25%;
+        margin: auto;
+        width: 95%;
+    }
+    .mQ_underDetImg {
+        padding: auto;
+        margin-top: 10%;
+    }
 }
-
-
-
-
-
-
-
